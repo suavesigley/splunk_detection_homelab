@@ -21,3 +21,5 @@ The lab is primarily focused on **Windows logging** and event data analysis (e.g
 * *Example SPL:* `index=winlogs sourcetype=WinEventLog:Security EventCode=4625 | stats count by Logon_Type, IpAddress | where count > 5`
 
 ---
+## Documentation
+- [01 – Lab Setup](docs/01_Lab_Setup.md)
